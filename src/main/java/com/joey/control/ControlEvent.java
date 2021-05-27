@@ -71,18 +71,4 @@ public class ControlEvent implements Listener {
     public void onQuit(PlayerQuitEvent e) {
         if (!controlMap.get("quit-message")) e.setQuitMessage(null);
     }
-
-    /*
-        controlMap.put("chat", true);
-        controlMap.put("command", true);
-        controlMap.put("movement", true);
-        controlMap.put("attack", true);
-        controlMap.put("damage", true);
-        controlMap.put("interaction", true);
-        controlMap.put("breaking", true);
-        controlMap.put("placement", true);
-        controlMap.put("crafting", true);
-        controlMap.put("join-message", true);
-        controlMap.put("quit-message", true);
-    */
 }
