@@ -1,0 +1,4 @@
+name: Control
+version: 1.8
+main: com.joey.control.Main
+depend: [CommandAPI]
